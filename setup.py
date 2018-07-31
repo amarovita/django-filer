@@ -26,7 +26,7 @@ setup(
     author_email='stefan@foulis.ch',
     packages=find_packages(),
     install_requires=(
-        'Django>=1.8,<1.11.999',  # Django is known to use rc versions
+        'Django>=2.0.0,<2.1.999',  # Django is known to use rc versions
         'easy-thumbnails>=2,<3.0',
         'django-mptt>=0.6,<0.10',  # the exact version depends on Django
         'django_polymorphic>=0.7,<2.1',
@@ -44,10 +44,8 @@ setup(
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP',
         'Framework :: Django',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.10',
-        'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 2.1',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
