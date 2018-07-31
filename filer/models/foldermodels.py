@@ -5,7 +5,7 @@ from __future__ import absolute_import, unicode_literals
 import mptt
 from django.conf import settings
 from django.contrib.auth import models as auth_models
-from django.core import urlresolvers
+from django import urls as urlresolvers
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.db.models import Q
