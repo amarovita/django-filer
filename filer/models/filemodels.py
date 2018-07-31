@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 
 from django.conf import settings
-from django.core import urlresolvers
+from django import urls as urlresolvers
 from django.core.files.base import ContentFile
 from django.db import models
 from django.utils import timezone
